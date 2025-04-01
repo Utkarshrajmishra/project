@@ -2,6 +2,8 @@ import React from 'react';
 import { ShoppingCart, Trash2, Plus, Minus, X } from 'lucide-react';
 import { useCart } from '../context/CartContext';
 
+
+
 interface CartProps {
   onClose: () => void;
 }
